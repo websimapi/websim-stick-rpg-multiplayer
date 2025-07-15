@@ -22,7 +22,7 @@ export class UIManager {
         }
         
         nameElement.style.left = (player.x - camera.x + 16) + 'px';
-        nameElement.style.top = (player.y - camera.y - 10) + 'px';
+        nameElement.style.top = (player.y - camera.y - 20) + 'px';
         nameElement.textContent = peers[clientId].username;
         
         // Create or update health bar
@@ -35,7 +35,7 @@ export class UIManager {
         }
         
         healthBar.style.left = (player.x - camera.x + 16 - 20) + 'px';
-        healthBar.style.top = (player.y - camera.y + 32 + 5) + 'px';
+        healthBar.style.top = (player.y - camera.y + 40) + 'px';
         
         let healthFill = healthBar.querySelector('.health-fill');
         if (!healthFill) {
