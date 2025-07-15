@@ -1,0 +1,31 @@
+export const CONFIG = {
+    TILE_SIZE: 32,
+    WORLD_WIDTH: 25,
+    WORLD_HEIGHT: 18,
+    CANVAS_WIDTH: 800,
+    CANVAS_HEIGHT: 600,
+    PLAYER_SPEED: 2,
+    PROJECTILE_SPEED: 5,
+    SHOOT_COOLDOWN: 300,
+    DAMAGE_AMOUNT: 20,
+    RESPAWN_TIME: 3000
+};
+
+export const COLORS = {
+    GROUND: '#2d5a27',
+    GRID_LINES: '#1a3c17',
+    TREE: '#0f5132',
+    TREE_ACCENT: '#198754',
+    ROCK: '#6c757d',
+    ROCK_ACCENT: '#8a8a8a',
+    HOUSE: '#8b4513',
+    HOUSE_ACCENT: '#a0522d',
+    HOUSE_DOOR: '#654321',
+    PLAYER_BODY: '#8b4513',
+    PLAYER_HEAD: '#deb887',
+    PLAYER_EYES: '#000',
+    PROJECTILE: '#ffff00',
+    HEALTH_BAR_BG: 'red',
+    HEALTH_FILL: '#00ff00'
+};
+
